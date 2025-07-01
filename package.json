@@ -11,8 +11,11 @@
   "dependencies": {
     "@tabler/icons-react": "^3.34.0",
     "clsx": "^2.1.1",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.16.1",
     "motion": "^12.20.1",
     "next": "15.3.4",
+    "next-auth": "^4.24.11",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "simplex-noise": "^4.0.3",

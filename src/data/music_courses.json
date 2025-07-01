@@ -9,7 +9,7 @@
       "price": 99.99,
       "instructor": "John Doe",
       "isFeatured": true,
-      "image": "/images/guitar.jpg",
+      "image": "./assets/courseimg/guitar_fundamental.jpg",
       "longDescription": "Embark on your musical journey with 'Guitar Fundamentals'. This course is meticulously designed for absolute beginners, covering everything from holding the guitar and basic chord shapes to strumming patterns and simple melodies. Our expert instructor, John Doe, breaks down complex concepts into easy-to-understand lessons, ensuring a solid foundation for aspiring guitarists. You'll learn to play your first songs in no time!",
       "whatYouWillLearn": [
         "Proper guitar holding and posture",

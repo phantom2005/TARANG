@@ -6,10 +6,7 @@ import { Spotlight } from "./ui/spotlight-new";
 const Ourstars = () => {
   return (
     <div className="h-screen w-screen flex flex-col items-center justify-center relative overflow-hidden">
-      <Spotlight
-        className="-top-40 left-0 md:left-60 md:-top-20"
-        fill="white"
-      />
+      <Spotlight className="-top-40 left-0 md:left-60 md:-top-20" fill="white"></Spotlight>
 
       <div className="p-4 relative z-10 text-center">
         <h1 className="text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
