@@ -1,5 +1,6 @@
 
 import {Tarangcourses } from '@/components/AppleCardsCarouselDemo'
+import Maindoor from '@/components/door'
 import HeroSection from '@/components/HeroSection'
 import TarangNavbar from '@/components/navbar'
 import Ourstars from '@/components/Ourstars'
@@ -10,10 +11,11 @@ const page = () => {
     <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
      
       {/* <h1 className='text-2xl text-center'>TARANG</h1> */}
-      <TarangNavbar/>
+      {/* <TarangNavbar/>
       <HeroSection/>
-  <Tarangcourses/>
-      <Ourstars/>
+      <Tarangcourses/>
+      <Ourstars/> */}
+      <Maindoor/>
     </main>
     
   )
