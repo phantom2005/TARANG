@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import TarangNavbar from "@/components/navbar";
-
-
+// import TarangNavbar from "@/components/navbar"; // Keep commented out if not globally needed
+import { AuthProvider } from "@/context/AuthContext"; // Import your AuthProvider
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,9 +29,10 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-  {/* <TarangNavbar/> */}
-  
-        {children}
+        {/* <TarangNavbar/> */}
+        <AuthProvider> {/* Wrap your children with AuthProvider */}
+          {children}
+        </AuthProvider>
       </body>
     </html>
   );

@@ -1,24 +1,21 @@
+// This file is likely app/page.tsx or the default page for a route
+import { redirect } from 'next/navigation';
+import React from 'react';
 
-import {Tarangcourses } from '@/components/AppleCardsCarouselDemo'
-import Maindoor from '@/components/door'
-import HeroSection from '@/components/HeroSection'
-import TarangNavbar from '@/components/navbar'
-import Ourstars from '@/components/Ourstars'
-import React from 'react'
+// The other imports are commented out, so they are not currently needed for this page
+// import { Tarangcourses } from '@/components/AppleCardsCarouselDemo';
+// import Maindoor from '@/components/door';
+// import HeroSection from '@/components/HeroSection';
+// import TarangNavbar from '@/components/navbar';
+// import Ourstars from '@/components/Ourstars';
 
-const page = () => {
-  return (
-    <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
-     
-      {/* <h1 className='text-2xl text-center'>TARANG</h1> */}
-      {/* <TarangNavbar/>
-      <HeroSection/>
-      <Tarangcourses/>
-      <Ourstars/> */}
-      <Maindoor/>
-    </main>
-    
-  )
-}
+const HomePage = () => {
+  // Redirect to the login page
+  redirect('/login');
 
-export default page
+  // This component will not render anything after the redirect
+  // You can return null or a loading spinner if there's any client-side delay before redirect
+  return null;
+};
+
+export default HomePage;
